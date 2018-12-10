@@ -1,7 +1,7 @@
 package ttt;
 
 public class Plateau {
-	int[][] _plateau;
+	private int[][] _plateau;
 	
 	public Plateau() {
 		_plateau = new int[3][3];

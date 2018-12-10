@@ -1,8 +1,20 @@
 package ttt;
 
 public class Partie {
-	public static void main(String[] args) {
+	public Partie() {
+	}
+	
+	public void lancer() {
 		Plateau plateau = new Plateau();
-		plateau.affichePlateau();
+		
+		while(!estPartieTerminee()) {
+			plateau.affichePlateau();
+		}
+	}
+	
+	public boolean estPartieTerminee() {
+		boolean res = true;
+		
+		return res;
 	}
 }

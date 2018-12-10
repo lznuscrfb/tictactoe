@@ -2,7 +2,7 @@ package tests;
 
 import java.util.ArrayList;
 
-public class MainTest {
+public class MainTestJoueur {
 	public static void main(String[] args) {
 		String informations;
 		

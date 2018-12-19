@@ -6,7 +6,7 @@ import java.net.URL;
 /**
  * La classe Tests permet d'afficher l
  * @author Noé
- * @version 0.1
+ * @version 1.0
  */
 public class Joueur {
 	/**

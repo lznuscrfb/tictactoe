@@ -1,0 +1,19 @@
+- Message de bienvenue
+- Demande : noms des joueurs
+- Demande : qui commence ?
+- Lancement de la partie :
+	- Création et affichage plateau vide
+	- Pour chaque tour (un pion posé = un tour, on s'en fiche du quantième tour de jeu)
+		- Demande : position X du pion à poser
+			- Test si nombre entier (sinon nouvelle demande)
+				- Test si valeur correcte (sinon nouvelle demande)
+					- Test si case vide (sinon nouvelle demande)
+						
+		- Demande : position Y du pion à poser
+			- Test si nombre entier (sinon nouvelle demande)
+				- Test si valeur correcte (sinon nouvelle demande)
+					- Test si case vide (sinon nouvelle demande)
+		- Test si partie gagnée :
+			- Gagnée : Affichage fin de partie et gagnant de la partie
+			- Non gagnée : Tour suivant
+- Fin du programme

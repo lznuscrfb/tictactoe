@@ -8,17 +8,14 @@ public class Plateau {
 	}
 	
 	public void affichePlateau() {
+		// U+0305
+		System.out.println("  1   2   3\n___________");
 		for(int i=0; i<3; i++) {
 			if((i>0) && (i<3)) {
-				System.out.println("-----------");
+				System.out.println("|-----------|");
 			}
 			for(int j=0; j<3; j++) {
-				if(j<2) {
-					System.out.print(" " + _plateau[i][j] + " |");
-				}
-				else {
-					System.out.print(" " + _plateau[i][j] + " ");
-				}
+				System.out.print(" " + _plateau[i][j] + " |");
 			}
 			System.out.println();
 		}

@@ -7,13 +7,15 @@ public class Partie {
 	public void lancer() {
 		Plateau plateau = new Plateau();
 		
+		plateau.affichePlateau();
+		
 		while(!estPartieTerminee()) {
-			plateau.affichePlateau();
+			
 		}
 	}
 	
 	public boolean estPartieTerminee() {
-		boolean res = true;
+		boolean res = false;
 		
 		return res;
 	}

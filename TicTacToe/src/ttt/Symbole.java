@@ -3,7 +3,7 @@ package ttt;
 /** 
  * @author Noé
  */
-public enum SYMBOLE {
+public enum Symbole {
 	
 	CROIX,
 	
